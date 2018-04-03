@@ -84,6 +84,17 @@
     <script>
         // Some options to pass to the uploader are discussed on the next page
         var uploader = new qq.azure.FineUploader({
-            element: document.getElementById("uploader")
-        })
+            element: document.getElementById("uploader"),
+			 request: {
+			 endpoint: 'server/upload'
+			 }
+			 cors: {
+			 //all requests are expected to be cross-domain requests
+			 expected: true,
+
+			//if you want cookies to be sent along with the request
+			 sendCredentials: true
+			 }
+        });
+		
     </script>
