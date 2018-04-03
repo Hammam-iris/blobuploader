@@ -1,0 +1,22 @@
+{
+  "name": "azurestorageblobuploadersample",
+  "version": "0.0.3",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "dependencies": {
+    "azure-storage": "^2.8.0",
+    "consolidate": "^0.15.1",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.8",
+    "express": "~4.16.2",
+    "express-ejs-layouts": "^2.3.1",
+    "fine-uploader": "^5.16.0",
+    "formidable": "^1.1.1",
+    "mustache": "^2.3.0",
+    "view-engine": "^1.1.1",
+    "yargs": "^11.0.0"
+  }
+}
